@@ -32,7 +32,7 @@ import {
 } from 'lucide-react';
 import './styles.css';
 
-const API = import.meta.env.VITE_API_BASE || 'http://localhost:8000';
+const API = import.meta.env.VITE_API_BASE || 'https://windline-gft4fklsy-divya-dd72.vercel.app';
 
 const fmt = (n, d = 0) =>
   n == null
